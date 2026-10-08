@@ -207,10 +207,18 @@ function Form(){
                         
                 </div>
             </div>
+
+                <div className="flex justify-end mt-8">
+                <button
+                    type="submit"
+                    className="bg-red-600 text-white px-6 py-2 rounded-md hover:bg-red-700"
+                >
+                    Submit
+                </button>
+            </div>
         </form>
 
-                 
-        </div>
+    </div>
     );
 }
 
